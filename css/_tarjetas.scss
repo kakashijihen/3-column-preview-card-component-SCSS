@@ -1,0 +1,70 @@
+@use '_variables.scss' as *;
+#sedans{
+ background-color: $BrightOrange;
+}
+
+#suvs{
+    background-color: $DarkCyan;
+}
+
+#luxury{
+    background-color: $VerydarkCyan;
+}
+
+img{
+    margin-bottom: 36px;
+}
+
+h2{
+    color: $Verylightgray;
+    font-family: $BigShoulders;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+p{
+    color: $TransparentWhite;
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+
+button{
+    width: 148px;
+    height: 46px;
+    border-radius: 45px;
+    border-style: none;
+    background-color: $Verylightgray;
+    font-family: $Lexend;
+    font-size: 15px;
+
+    &:hover{
+        cursor: pointer;
+        border: 2px solid $Verylightgray;
+    }
+}
+
+#sedans-btn{
+    color: $BrightOrange;
+    &:hover{
+        background-color: $BrightOrange;
+        color: $Verylightgray;
+    }
+}
+
+#suvs-btn{
+    color: $DarkCyan;
+    &:hover{
+        background-color: $DarkCyan;
+        color: $Verylightgray;
+    }
+}
+
+#luxury-btn{
+    color: $VerydarkCyan;
+    &:hover{
+        background-color: $VerydarkCyan;
+        color: $Verylightgray;
+    }
+}
