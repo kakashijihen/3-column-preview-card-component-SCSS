@@ -1,4 +1,5 @@
 3-column-preview-card-component-main
+
 Segundo Desafio realizado para Frontend Mentor una fila de 3 tarjetas responsive
 
 -En este trabajo use las siguientes tecnologias : HTML SASS y Flexbox
